@@ -1,4 +1,4 @@
- <h1>WireShark Packet Analysis</h1>
+ <h1>Analyzing Packets With WireShark</h1>
 
 <h2>Description</h2>
 
