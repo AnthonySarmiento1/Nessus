@@ -1,4 +1,4 @@
- <h1>Wireshark Packet Analysis</h1>
+ <h1>WireShark Packet Analysis</h1>
 
 <h2>Description</h2>
 
@@ -12,7 +12,7 @@ This Project consists of steps on how to Use Wireshark filters to:
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>WireShark</b>
+- <b><a href="https://www.wireshark.org/">WireShark</a></b>
 
 <h2>Environments Used </h2>
 
