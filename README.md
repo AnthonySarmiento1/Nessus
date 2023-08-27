@@ -1,4 +1,4 @@
-<h1>Nessus Essentials Vulnerability Assessment</h1>
+ <h1>Nessus Vulnerability Assessment</h1>
 
 <h2>Description</h2>
 
