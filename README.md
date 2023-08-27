@@ -29,7 +29,7 @@ This Project consists of steps on how to Use Wireshark filters to:
 <img src="https://imgur.com/za6Ng5n.png" />
 </br>
 <p align="center">
-By opening the packet details pane window I can see that this packet's destination is port 80 (HTTP) and is a SYN packet with a sequence number of 0 meaning this is the start of a new TCP 3-Way Handshake.
+By opening the packet details pane window I can see that this packet's destination is port 80 (HTTP) and is a SYN packet meaning this is the start of a new TCP 3-Way Handshake.
  
 <img src="https://imgur.com/aIQwZ2g.png"/>
 <p align="center">
