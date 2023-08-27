@@ -18,13 +18,13 @@ This Project consists of steps on how to:
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11 VM</b> (Victim)
-- <b>Windows 10</b> (Security Operations Center)
+- <b>Windows 11 VM</b> ()
+- <b>Windows 10</b> ()
 
 <h2>Program walk-through:</h2>
 
 
-<h3>Part 1: Setting Up LimaCharlie</h3>
+<h3>Part 1: </h3>
 
 <p align="center">
 <img src="" />
