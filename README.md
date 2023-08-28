@@ -21,10 +21,10 @@ This Project consists of steps on how to Use Wireshark filters to:
 <h2>Program walk-through:</h2>
 
 
-<h3>Part 1:Inspecting traffic from a user </h3>
+<h3>Part 1: Inspecting traffic from a user </h3>
 
 <p align="center">
- To start off I opened a sample .pcap file provided by <a href="https://go.qwiklabs.com/">QikiLabs</a> to start experimenting with. By inserting <code>ip.addr == 142.250.1.139</code> In the filter box, only packets with the source or the destination IP address will appear.
+ To start I opened a sample .pcap file provided by <a href="https://go.qwiklabs.com/">QikiLabs</a> to start experimenting with. By inserting <code>ip.addr == 142.250.1.139</code> In the filter box, only packets with the source or the destination IP address will appear.
  
 <img src="https://imgur.com/za6Ng5n.png" />
 </br>
@@ -45,9 +45,9 @@ Other possible filters to analyze specific network packets:
 <img src="https://imgur.com/1nlqD4g.png"/>
 
 
-<h3>Part 2:Analyzing DNS packets </h3>
+<h3>Part 2: Analyzing DNS packets </h3>
 <img src="https://imgur.com/xQ485Wm.png"/>
 
 
-<h3>Part 3:Analyzing TCP packets</h3>
+<h3>Part 3: Analyzing TCP packets</h3>
 <img src="https://imgur.com/BnOtmwq.png"/>
