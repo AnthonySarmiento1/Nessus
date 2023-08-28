@@ -42,12 +42,32 @@ Other possible filters to analyze specific network packets:
 <p align="center">
  Back in the same packet detail window in the Ethernet II subtree, the MAC address is displayed in clear text.
  
-<img src="https://imgur.com/1nlqD4g.png"/>
+<img src="https://imgur.com/HWqhlZx.png"/>
 
 
 <h3>Part 2: Analyzing DNS packets </h3>
+<p align="center">
+ To filter for DNS traffic I used the UDP port 53 which will list traffic related to DNS queries and responses only.
+ <li><code>udp.port == 53</code></li>
+ <p align="center">
+ In this DNS traffic, I started exploring and found that there was information about IP 142.250.1.139 being queried for opensource.google.com by looking at a packet that came from 169.254.169.254, and had the destination of 172.21.224.2. 
+ 
 <img src="https://imgur.com/xQ485Wm.png"/>
 
 
 <h3>Part 3: Analyzing TCP packets</h3>
-<img src="https://imgur.com/BnOtmwq.png"/>
+<p align="center">
+ Then Filtering for TCP using port 80 by using this command
+<li><code>tcp.port == 80</code></li>
+ <p align="center">
+I found out many packets were created when 142.250.1.139 queried for opensource.google.com
+ </br>
+  <p align="center">
+   In the first packet in the list, I was able to identify:
+   <ol type = "1">
+   <li>Time to Live value: 64 seconds</li>
+   <li>Frame Length: 54 bytes</li>
+   <li>Header Length: 20 bytes</li>
+   
+   </ol>
+<img src="https://imgur.com/zZ0VT9P.png"/>
