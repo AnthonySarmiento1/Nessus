@@ -63,7 +63,7 @@ Other possible filters to analyze specific network packets:
 I found out many packets were created when 142.250.1.139 queried for opensource.google.com
  </br>
   <p align="center">
-   In the first packet in the list, I was able to identify:
+   In the first packet in the list, I identified:
    <ol type = "1">
    <li>Time to Live value: 64 seconds</li>
    <li>Frame Length: 54 bytes</li>
