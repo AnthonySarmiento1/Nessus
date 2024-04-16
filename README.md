@@ -57,7 +57,7 @@ Other possible filters to analyze specific network packets:
 
 <h3>Part 3: Analyzing TCP packets</h3>
 <p align="center">
- Then Filtering for TCP using port 80 by using this command
+ Then filtering for TCP using port 80 by using this command
 <li><code>tcp.port == 80</code></li>
  <p align="center">
 I found out many packets were created when 142.250.1.139 queried for opensource.google.com
